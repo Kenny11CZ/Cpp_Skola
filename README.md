@@ -6,8 +6,9 @@ Obsah:
 - [x] Hello world
 - [x] Deklarace promenych
 - [x] Vstup/Vystup
-- [ ] If
+- [x] Prace s promennymi
+- [x] If
 - [ ] Else
 - [ ] For
 - [ ] While
-- [ ] Tøí­dy/Funkce
+- [ ] Tridy/Funkce
