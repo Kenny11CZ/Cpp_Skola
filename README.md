@@ -5,4 +5,4 @@ Moje programy v C++
 =========
 Obsah:
 
-[x] Hello world
+[ ] Hello world
