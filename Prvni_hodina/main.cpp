@@ -28,15 +28,15 @@ int main(int argc, char *argv[])
     //Vypocet a Vystup
     vysledek = x+y;
     printf("==========\n");
-    printf("Soucet: %f\n", vysledek);
+    printf("Soucet %f+%f=%f\n",x ,y , vysledek);
     vysledek = x-y;
-    printf("Odecet: %f\n", vysledek);
+    printf("Odecet %f-%f=%f\n",x ,y , vysledek);
+    vysledek = x*y;
+    printf("Soucin: %f*%f=%f\n",x ,y , vysledek);
     //Pokud je x a y rozdilne od 0
     if(x != 0 && y != 0){
-        vysledek = x*y;
-        printf("Soucin: %f\n", vysledek);
         vysledek = x/y;
-        printf("Deleni: %f\n", vysledek);
+        printf("Deleni: %f/%f=%f\n",x ,y , vysledek);
     }
 
 
