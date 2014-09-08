@@ -1,5 +1,7 @@
 Moje programy v C++
 =========
+Predmet: Programovani
+Ucitel: --
 Obsah:
 - [x] Hello world
 - [x] Deklarace promenych
