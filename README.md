@@ -5,8 +5,9 @@ Moje programy v C++
 Obsah:
 - [x] Hello world
 - [x] Deklarace promenych
+- [x] Vstup/Vystup
 - [ ] If
 - [ ] Else
 - [ ] For
 - [ ] While
-- [ ] TÅ™Ã­dy/Funkce
+- [ ] Tøí­dy/Funkce
