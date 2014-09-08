@@ -1,7 +1,7 @@
 Moje programy v C++
 =========
-Predmet: Programovani
-Ucitel: --
+Predmet: Programovani  
+Ucitel: Ondrej Kolin  
 Obsah:
 - [x] Hello world
 - [x] Deklarace promenych
