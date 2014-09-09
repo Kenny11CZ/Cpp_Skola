@@ -9,6 +9,7 @@ Obsah:
 - [x] Prace s promennymi
 - [x] If
 - [x] Else
+- [ ] Switch
 - [x] For
 - [ ] While
 - [ ] Tridy/Funkce
