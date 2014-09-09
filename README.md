@@ -8,7 +8,7 @@ Obsah:
 - [x] Vstup/Vystup
 - [x] Prace s promennymi
 - [x] If
-- [ ] Else
-- [ ] For
+- [x] Else
+- [x] For
 - [ ] While
 - [ ] Tridy/Funkce
