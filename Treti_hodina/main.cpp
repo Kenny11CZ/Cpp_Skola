@@ -82,15 +82,15 @@ int main(int argc, char *argv[])
 
     printf("\n");
     */
-    char sleva;
-    int procentoSlevy, vzdalenost, cenaKm, dan;
-    float cena;
+    char slevaChar;
+    int procentoSlevy, vzdalenost, cenaKm;
+    float cena, sleva, dan;
     printf("Taxametr\n");
     printf("Zadejde slevovy kupon: ");
-    scanf("%c", &sleva);
+    scanf("%c", &slevaChar);
     printf("Zadejde dan: ");
-    scanf("%d", &dan);
-    switch (sleva) {
+    scanf("%f", &dan);
+    switch (slevaChar) {
         case 'a':
             procentoSlevy = 20;
             break;
@@ -119,7 +119,11 @@ int main(int argc, char *argv[])
         else cenaKm = 18;
     }
     else cenaKm = 20;
-    cena = vzdalenost * cenaKm * ((100+dan)/100) * ((100+procentoSlevy)/100);
+    cena = vzdalenost * cenaKm;
+    dan = cena * (100+dan)/100;
+    sleva = cena * (100+procentoSlevy)/100;
+    cena = cena + dan - sleva;
+
     printf("Cena je: %f", cena);
 
     return 0;
