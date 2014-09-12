@@ -1,4 +1,4 @@
-Moje programy v C++
+Moje programy v C
 =========
 Predmet: Programovani  
 Ucitel: Ondrej Kolin  
@@ -9,7 +9,7 @@ Obsah:
 - [x] Prace s promennymi
 - [x] If
 - [x] Else
-- [ ] Switch
+- [x] Switch
 - [x] For
-- [ ] While
+- [x] While
 - [ ] Tridy/Funkce
