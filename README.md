@@ -13,3 +13,4 @@ Obsah:
 - [x] For
 - [x] While
 - [ ] Tridy/Funkce
+- Cacuv testias
