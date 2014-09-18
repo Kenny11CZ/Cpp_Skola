@@ -41,19 +41,22 @@ int main()
     int cisel;
     printf("Zadejte pocet cisel: ");
     scanf("%d", &cisel);
-    float cisla[cisel];
-    float soucet, prumer;
+    float soucet, prumer, uspesnych;
     for(int i = 0; i<cisel;i++){
         printf("Zadejte cislo %d: ", i+1);
-        scanf("%f", &cisla[i]);
+        if(cisla[i]<=5 && cisla[i]>=1){
+            i--;
+            continue;
+        }
     }
     printf("Cisla:");
     for(int i = 0; i<cisel;i++){
         printf("%.2f;", cisla[i]);
-        soucet = soucet + cisla[i];
+
+
     }
     printf("\n");
-    prumer = soucet/cisel;
-    printf("\nSoucet je: %f", soucet);
-    printf("\nPrumer je: %f", prumer);
+    prumer = soucet/uspesnych;
+    printf("\nSoucet je: %.2f", soucet);
+    printf("\nPrumer je: %.2f", prumer);
 }
