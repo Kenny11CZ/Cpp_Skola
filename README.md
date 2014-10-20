@@ -12,5 +12,4 @@ Obsah:
 - [x] Switch
 - [x] For
 - [x] While
-- [ ] Tridy/Funkce
-- Cacuv testias 22222
+- [x] Tridy/Funkce
