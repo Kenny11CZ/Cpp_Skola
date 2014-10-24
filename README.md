@@ -13,3 +13,4 @@ Obsah:
 - [x] For
 - [x] While
 - [x] Tridy/Funkce
+- [x] Soubory/stream
