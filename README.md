@@ -14,3 +14,8 @@ Obsah:
 - [x] While
 - [x] Tridy/Funkce
 - [x] Soubory/stream
+- [x] Dynamicke alokovani pameti
+
+=========
+Chybi:
+ - 15-hodina
