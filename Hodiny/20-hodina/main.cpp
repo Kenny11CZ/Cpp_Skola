@@ -19,6 +19,20 @@ void PrikladJedna(){
     for(int i=0;i<ukazatel;++i)
         printf("%d ", p[pocet-i-1]);
 }
+void BubbleSort(int *pole, int velikost){
+    for(int i=0;i<velikost-1;++i)
+    {
+        for(int j=0;j<velikost-1-i;++j)
+        {
+            if(pole[j+1]>pole[j])
+            {
+                int tmp = pole[j];
+                pole[j] = pole[j+1];
+                pole[j+1] = tmp;
+            }
+        }
+    }
+}
 void NaplnPole(int *pole, int velikost, int offset){
     for(int i = offset; i<velikost; i++){
         pole[i] = i;
@@ -29,9 +43,7 @@ void VypisPole(int *pole, int velikost){
         printf("%d ", pole[i]);
     printf("\n");
 }
-
-int main()
-{
+void MeneniVelikosti(){
     int * p;
     int cislo, puvodni = 0;
     printf("Zadejte velikost: ");
@@ -39,31 +51,24 @@ int main()
     p = (int *) malloc(sizeof(int)*cislo);
     while(true)
     {
+        puvodni += cislo;
         scanf("%d", &cislo);
-        if(cislo == -1)
-            break;
+        if(cislo == -1){
+            BubbleSort(p, puvodni);
+            VypisPole(p, puvodni);
+            puvodni -= cislo;
+            continue;
+        }
         printf("Nafukuji pole o velikost %d(puvodni %d)\n", cislo, puvodni);
         p = (int *) realloc(p, sizeof(int) * (puvodni+cislo));
         printf("Naplnuji pole\n");
-        NaplnPole(p,puvodni,cislo);
+        NaplnPole(p,puvodni+cislo,puvodni-cislo);
         VypisPole(p,puvodni+cislo);
-                puvodni += cislo;
-        /*if(ukazatel == pocet)
-        {
-            printf("Maximum dosazeno, nafouknout? y/n");
-            char volba;
-            scanf("%c", &volba);
-            if(volba == 'y' || volba == 'Y'){
-                pocet = pocet * 2;
-                printf("Nafukuji pole na velikost %d\n", pocet);
-                p = (int *) realloc(p, sizeof(int) * pocet);
-                volba = 'n';
-            }
-        }*/
     }
+}
 
-
-
-
+int main()
+{
+    MeneniVelikosti();
     return 0;
 }
