@@ -1,6 +1,6 @@
-Moje programy v C
+Moje programy v C/C++ s použitím Qt knihoven
 =========
-Predmet: Programovani  
+Predmet: Programovani a praxe 
 Ucitel: Ondrej Kolin  
 Obsah:
 - [x] Hello world
@@ -15,7 +15,13 @@ Obsah:
 - [x] Tridy/Funkce
 - [x] Soubory/stream
 - [x] Dynamicke alokovani pameti
+- [x] Objekty
+- [x] User interface
+- [x] Grafika
 
+To je asi vse z 3. rocniku SPS MB
 =========
-Chybi:
- - 15-hodina
+
+
+
+
