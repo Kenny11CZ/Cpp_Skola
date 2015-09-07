@@ -1,7 +1,9 @@
 Moje programy v C/C++ s použitím Qt knihoven
 =========
 Predmet: Programovani a praxe 
-Ucitel: Ondrej Kolin  
+
+Ucitel: Ondrej Kolin 
+
 Obsah:
 - [x] Hello world
 - [x] Deklarace promenych
